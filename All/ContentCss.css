@@ -1,0 +1,16 @@
+ body {
+            font-family: monospace;
+            color: white;
+            background-color: lightgray;
+        }
+        .content {
+            background-color: black;
+            text-align: center;
+            width: 50%;
+            margin: auto;
+            border: 1px solid rgb(145, 0, 0);
+        }
+        #HeadBar {
+            background-color: darkgray;
+            text-align: right;
+        }
