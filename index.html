@@ -35,10 +35,22 @@
 
     <div id="center">
 
-        <a id="Yes" href="HomeSweetHome.html">Home Sweet Home</a>
+        <a id="Yes" onclick="Fullscreenrequest();" href="HomeSweetHome.html">Home Sweet Home</a>
 
     </div>
     
+    <script src="Testsetting.js">
+
+
+         var Doc = document.documentElement
+
+        function Fullscreenrequest() {
+            Doc.requestFullscreen();
+        };
+
+
+    </script>
+
 
 </body>
 </html>
